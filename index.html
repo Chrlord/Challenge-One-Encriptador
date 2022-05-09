@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="imagenes/Criptografia7.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Codificador</title>
+</head>
+
+<body>
+  <div class="contenedor">
+    <header class="header">
+      <div class="logo">
+        <img src="imagenes/LogoAlura.png" alt="Logo Alura">
+      </div>
+      <nav class="menu">
+        <a href="#">Inicio</a>
+        <a href="#">BLog</a>
+        <a href="#">Contacto</a>
+      </nav>
+    </header>
+    <main class="mainPadre">
+      <section>
+        <div class="mainHijo">
+          <textarea type="text" id="primerTextarea" class="primerTextarea" name="textareaEncriptar" placeholder="Ingrese el texto" required></textarea>
+          <p class="informacion"><i class="fa-thin fa-circle-info"></i>Solo letras minúsculas y sin acentos</p>
+          <span class="mensaje-spanUno"></span>
+          <div class="botones">
+            <button id="btnEncriptar" class="btn-encriptar hover" type="submit"><i class="fa-brands fa-expeditedssl"></i>Encriptar</button>
+            <button id="btnDesencriptar" class="btn-desencriptar hover" type="submit"><i class="fa-solid fa-link-slash"></i>Desencriptar</button>
+          </div>
+        </div>
+      </section>
+      <aside>
+        <textarea class="segundoTextarea" id="segundoTextarea" type="text" name="textareaDesencriptar" img="imagenes/Muñeco.png" ></textarea>
+        <p class="informacion2">No hay datos encriptados.</p>
+        <span class="mensaje-spanDos"></span>
+        <button id="btnCopiar" class="btn-copiar hover" type="submit" name="Copiar"><i class="fa-regular fa-copy"></i>Copiar</button>
+      </aside>
+    </main>
+    <footer>
+      <div class="autor">
+        <p><i class="fa-light fa-copyright"></i>Elaborado por Christian Aguilera</p>
+      </div>
+      <div class="redes">
+        <a href="https://twitter.com/ChrLorDTwG"><i class="fa-brands fa-twitter-square"></i></a>
+        <a href="https://www.instagram.com/christianj_aguilera/"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </footer>
+  </div>
+  <script src="encriptar.js"></script>
+</body>
+</html>
