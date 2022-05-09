@@ -212,6 +212,8 @@ footer .redes a:hover {
   /* 0058fbbe */
 }
 
+/* ------ Clases creadas para usar con JS ------ */
+
 .mensajeError {
   color: #7a1818da;
   font-size: 12px;
