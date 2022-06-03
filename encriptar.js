@@ -167,5 +167,3 @@ function desencriptar(desencriptarString) {
   }
   return desencriptarString; // Retorna el texto desencriptado
 }
-
-
